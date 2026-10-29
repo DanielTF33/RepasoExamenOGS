@@ -21,3 +21,13 @@ La función debe generar una cadena de texto con las potencias de la base, empez
 - Cada potencia debe separarse de la siguiente mediante un guion (-).
 - Debe incluirse la última potencia cuyo valor sea menor o igual que el límite.
 - La función debe devolver la cadena de texto resultante, sin un guion al final.
+
+## Encontrar_caracter
+
+Enunciado: Crea una función llamada validar_trama(trama) que reciba una cadena de texto y compruebe la posición de los caracteres [ y ].
+
+La función debe seguir estas reglas:
+- Si el carácter [ aparece antes que ], debe devolver un string indicando la posición de ambos caracteres.
+- Si el carácter ] aparece antes que [, debe devolver "INVALIDO".
+- Si ninguno de los dos caracteres aparece en la cadena, debe devolver "NO ESTA".
+  Para localizar los caracteres, utiliza los métodos find() y rfind() de Python.
