@@ -3,7 +3,7 @@ def base_exponente(base, limite):
     resultado = 1
     string = ""
 
-    while resultado < limite:
+    while resultado <= limite:
 
         if  resultado * base > limite:
             string = string + f"{resultado}"
@@ -16,4 +16,4 @@ def base_exponente(base, limite):
 
 
 if __name__ == '__main__':
-    print(base_exponente(3,20))
+    print(base_exponente(3,26))
